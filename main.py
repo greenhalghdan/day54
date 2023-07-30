@@ -13,7 +13,7 @@ driver = webdriver.Chrome(service=chrome_web_driver, options=chrome_options)
 driver.maximize_window()
 
 RIGHT_MOV_MARKETINFO = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E689&minBedrooms=3&propertyTypes=detached%2Csemi-detached%2Cterraced&maxDaysSinceAdded=1&includeSSTC=false&mustHave=garden%2Cparking&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
-ZOOPLA_MARKETINFO = "https://www.zoopla.co.uk/for-sale/houses/ipswich/?beds_min=3&price_max=500000&price_min=150000&property_sub_type=semi_detached&property_sub_type=detached&property_sub_type=terraced&property_sub_type=bungalow&q=ipswich&results_sort=newest_listings&search_source=for-sale&added=24_hours&feature=has_garden&feature=has_parking_garage&is_auction=false&is_retirement_home=false&is_shared_ownership=false"
+#ZOOPLA_MARKETINFO = "https://www.zoopla.co.uk/for-sale/houses/ipswich/?beds_min=3&price_max=500000&price_min=150000&property_sub_type=semi_detached&property_sub_type=detached&property_sub_type=terraced&property_sub_type=bungalow&q=ipswich&results_sort=newest_listings&search_source=for-sale&added=24_hours&feature=has_garden&feature=has_parking_garage&is_auction=false&is_retirement_home=false&is_shared_ownership=false"
 
 DATAENTRY_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfwvTD1r9ZxZyNiUaW0YGqOk2D_DhjvlTxmyXyKTss3qP0iaA/viewform"
 
